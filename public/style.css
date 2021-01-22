@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Skyfont';
+  src: url('./skyfont/Skyfont-NonCommercial.otf');
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0.5em;
+  color: black;
+  font-size: 1rem;
+}
+
+form div {
+  margin: 1em;
+  display: inline-block;
+}
+
+#mapid {
+  height: 200px;
+  width: 80%;
+}
+
+.mapContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.marker-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.airport-popup {
+  padding: 10px;
+}
+
+.title {
+  font-family: 'Skyfont', cursive;
+  font-size: 100px;
+  margin: 0px;
+  color: black;
+  letter-spacing: 1px;
+}
+
+#travel-quote {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+button {
+  border-radius: 5px;
+  font-size: medium;
+  background-color: rgb(85, 85, 85);
+  color: white;
+  margin: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover {
+  background-color: rgb(4, 92, 128);
+}
+
+#map-container canvas {
+  cursor: crosshair;
+}
+
+#iata-btns {
+  font-family: 'Skyfont';
+}
