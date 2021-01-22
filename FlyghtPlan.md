@@ -3,12 +3,15 @@
 ### Build database
 
 [] Users model
+
 [] Flights Model
+
 [x] Airports Model
 
 #### Associations:
 
 users have many flights
+
 flights have many users
 
 need to use airports model to look up flight origin and destination lat/long
@@ -24,6 +27,7 @@ use deck-gl and shader layers
 ### Export video of Animated Routes
 
 is this even possible?
+
 [] look into kepler.gl
 
 ## Less Important
